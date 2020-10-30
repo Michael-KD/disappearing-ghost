@@ -20,7 +20,7 @@ $(".message-button").click(function() {
 
 $(".name-button").click(function() {
   let name = $(".input").val();
-  if (name == "") {
+  if (name === "") {
     $(".name").text("Give me a name!");
   } else {
     $(".name").text("My name is " + name + "!");
